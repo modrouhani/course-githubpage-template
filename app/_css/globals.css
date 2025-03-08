@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+*::-webkit-scrollbar {
+  width: 4px;
+  background-color: #1b264d;
+}
+*::-webkit-scrollbar:hover,
+*::-webkit-scrollbar-track {
+  background-color: #4b65c4;
+}
+*::-webkit-scrollbar:hover,
+*::-webkit-scrollbar-thumb {
+  background-color: white;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: rgb(23, 27, 34);
+  border-radius: 20px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(170, 170, 170);
+}
+
+details {
+  list-style: none !important; /* Removes default triangle */
+  position: relative;
+}
