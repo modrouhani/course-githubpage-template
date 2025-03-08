@@ -1,6 +1,6 @@
 export const header = {
   quote: "A short quote",
-  website: "Digital Course Name",
+  website: "Deep Learning and Neural Networks",
   institute:
     '<span class="text-red-light">F</span>erdowsi <span class="text-red-light">U</span>niversity Of <span class="text-red-light">M</span>ashhad',
   course: '<span class="text-red-light">Course</span> Name',
